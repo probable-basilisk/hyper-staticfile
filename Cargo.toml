@@ -16,7 +16,7 @@ futures-util = "0.3.1"
 http = "1.0.0"
 httpdate = "1.0.1"
 http-range = "0.1.4"
-hyper = "1.0.0"
+hyper = { version = "1.0.0", features = ["server"] }
 mime_guess = "2.0.1"
 percent-encoding = "2.1.0"
 rand = "0.8.4"
